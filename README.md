@@ -1,6 +1,6 @@
 # QUANTOM: Quantity, Order, & Management System
 
-# QUANTOM is a comprehensive management solution designed to optimize fast-food operations. By bridging the gap between inventory precision and seamless order processing, QUANTOM ensures that "Quantity" and "Order" management are handled with maximum efficiency.
+QUANTOM is a comprehensive management solution designed to optimize fast-food operations. By bridging the gap between inventory precision and seamless order processing, QUANTOM ensures that "Quantity" and "Order" management are handled with maximum efficiency.
 
 🚀 Key Features
  - Real-time Inventory Tracking: Keep a pulse on stock levels to prevent shortages.
@@ -41,9 +41,9 @@ Database: SQL Server
 👥 The Team: QUANTOM TEAM
 Developed by a dedicated team of Information Systems students at Universitas Pelita Harapan:
 
-# Full Name - Student ID
-# Anthony De Jayson Wiranata - 01081250005
-# Chen Zerui - 01081250010
-# Teuku Ahmad Devanio -	01081250013
-# Christopher Reynard Wijaya - 01081250021
-# Ephraim Wilson Prayoga - 01081250018
+Full Name - Student ID
+Anthony De Jayson Wiranata - 01081250005
+Chen Zerui - 01081250010
+Teuku Ahmad Devanio -	01081250013
+Christopher Reynard Wijaya - 01081250021
+Ephraim Wilson Prayoga - 01081250018
