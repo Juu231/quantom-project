@@ -42,8 +42,8 @@ Database: SQL Server
 Developed by a dedicated team of Information Systems students at Universitas Pelita Harapan:
 
 Full Name - Student ID
-Anthony De Jayson Wiranata - 01081250005
-Chen Zerui - 01081250010
-Teuku Ahmad Devanio -	01081250013
-Christopher Reynard Wijaya - 01081250021
-Ephraim Wilson Prayoga - 01081250018
+- Anthony De Jayson Wiranata - 01081250005
+- Chen Zerui - 01081250010
+- Teuku Ahmad Devanio -	01081250013
+- Christopher Reynard Wijaya - 01081250021
+- Ephraim Wilson Prayoga - 01081250018
