@@ -1,5 +1,3 @@
-/* QUANTOM Website Styles - Enhanced with Cute & Intriguing Design */
-
 :root {
     --orange: #FF9100;
     --orange-light: #FFB347;
@@ -27,7 +25,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Navbar */
 .navbar {
     padding: 0.5rem 0;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
@@ -60,7 +57,6 @@ body {
     color: #FF9100 !important;
 }
 
-/* Buttons */
 .btn-orange {
     background-color: #FF9100;
     border-color: #FF9100;
@@ -90,7 +86,6 @@ body {
     color: white;
 }
 
-/* Badges */
 .badge-orange {
     background-color: #FF9100;
     color: white;
@@ -112,17 +107,12 @@ body {
 }
 
 .badge-feature, .badge-benefit {
-    /* 1. Force a perfect circle */
     width: 32px;
     height: 32px;
     padding: 0;
-    
-    /* 2. Notification Look */
-    background-color: #FF9100; /* Solid orange */
-    color: #FF9100;              /* White icon/text */
-    border-radius: 50%;        /* Keeps it circular */
-    
-    /* 3. Layout & Positioning */
+    background-color: #FF9100;
+    color: #FF9100;
+    border-radius: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,14 +134,12 @@ body {
     font-weight: bold;
     color: white;
     position: absolute;
-    /* Center it perfectly */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: opacity 0.2s;
 }
 
-/* HOVER STATE */
 .badge-feature:hover, .badge-benefit:hover {
     max-width: 250px;
     width: auto;
@@ -256,8 +244,6 @@ body {
     transform: translateX(-50%);
 }
 
-
-/* Position helpers */
 .top-left {
     top: 20px;
     left: 20px;
@@ -284,7 +270,6 @@ body {
     transform: translateX(-50%);
 }
 
-/* Hero Section*/
 .hero-section {
     padding: 4rem 0;
     background-color: var(--white);
@@ -357,7 +342,6 @@ body {
     font-size: 2rem;
 }
 
-/* What is QUANTOM Section */
 .what-is-section {
     background-color: #2D1B14;
     padding: 5rem 0;
@@ -404,8 +388,6 @@ body {
     margin-bottom: 0.75rem;
 }
 
-
-/* Burger stack Section */
 .burger-stack-section {
     background: linear-gradient(135deg, var(--warm-cream) 0%, var(--warm-white) 100%);
     padding: 6rem 0;
@@ -449,7 +431,6 @@ body {
     font-size: 0.95rem;
 }
 
-/* Feature Detail Section */
 .feature-detail-section {
     padding: 5rem 0;
 }
@@ -478,9 +459,9 @@ body {
 }
 
 .tag{
-background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
-  color: #2D1B14; /* Darker orange for the text */
-  border-radius: 4px; /* Slightly less round */
+background-color: rgba(235, 150, 50, 0.15);
+  color: #2D1B14;
+  border-radius: 4px;
   padding: 4px 8px;
   margin: 0px 2px 4px 2px;
   font-weight: 600;
@@ -499,9 +480,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     color: var(--orange-dark);
 }
 
-
-
-/*Chaos To Calm Slider Section */
 .slider-container {
     background: white;
     padding: 1.5rem;
@@ -542,11 +520,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     opacity: 0.9;
 }
 
-
-
-
-
-/* Counter Needs Section */
 .counter-needs-section {
     background: #FF9100;
     padding: 6rem 0;
@@ -696,8 +669,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     font-weight: 600;
 }
 
-
-/* Setup Section */
 .setup-section {
     padding: 5rem 0;
     background-color: var(--white);
@@ -738,7 +709,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     margin-bottom: 0.25rem;
 }
 
-/* Stats Section */
 .stats-section {
     background-color: #2D1B14;
     padding: 4rem 0;
@@ -757,7 +727,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     margin-top: 0.5rem;
 }
 
-/* Testimonial Section */
 .testimonial-section {
     padding: 5rem 0;
     background-color: var(--white);
@@ -792,7 +761,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     color: #2D1B14;
 }
 
-/* Pricing Section */
 .pricing-section {
     background-color: #FF9100;
     padding: 5rem 0;
@@ -845,11 +813,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     margin-right: 0.5rem;
 }
 
-
-
-
-
-/* Working Partner Section*/
 .partners-title{
     font-size: 2.5rem;
     font-weight: 800;
@@ -871,7 +834,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     position: relative;
 }
 
-/* Gradient fade on the edges for a professional look */
 .logo-slider::before, .logo-slider::after {
     content: "";
     position: absolute;
@@ -912,10 +874,9 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
 /* The Animation */
 @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 5)); } /* Move by width of half the logos */
+    100% { transform: translateX(calc(-250px * 5)); }
 }
 
-/* Partner Logo Placeholders */
 .partner-logo {
     height: 8vh;
     min-height: 50px;
@@ -939,11 +900,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     transform: scale(1.05);
 }
 
-
-
-
-
-/* CTA Section */
 .cta-section {
     padding: 5rem 0;
     background-color: var(--white);
@@ -953,7 +909,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     box-shadow: 0 10px 40px rgba(0,0,0,0.1);
 }
 
-/*Articles SECTION */
 .articles-section {
     padding: 5rem 0;
     background: linear-gradient(135deg, #FFF9F0 0%, #FFF5EB 100%);
@@ -1041,9 +996,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     gap: 0.75rem;
 }
 
-/* ============================================
-   FAQ SECTION
-   ============================================ */
 .faq-section {
     padding: 5rem 0;
     background: white;
@@ -1114,8 +1066,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     padding-top: 1.5rem;
 }
 
-
-/* --- Article Cards --- */
 .featured-card .article-title {
     font-size: 2.5rem; 
     line-height: 1.2;
@@ -1132,16 +1082,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
 .featured-card .article-category {
     font-size: 0.9rem;
     margin-bottom: 1rem;
-}
-
-
-@media (max-width: 991.98px) {
-    .featured-card .article-title {
-        font-size: 1.75rem;
-    }
-    .featured-card .article-excerpt {
-        font-size: 1.1rem;
-    }
 }
 
 .article-card {
@@ -1173,7 +1113,7 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
 }
 
 .article-card:hover img {
-    transform: scale(1.05); /* Subtle zoom on hover */
+    transform: scale(1.05);
 }
 
 .article-content {
@@ -1230,16 +1170,16 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
 
 .ds-container {
     display: flex;
-    align-items: flex-start; /* CRITICAL: Prevents main content from shifting */
+    align-items: flex-start;
     min-height: 100vh;
     width: 100%;
 }
 
-/* Ensure the footer spans across the whole bottom */
+
 .ds-footer {
     width: 100%;
-    z-index: 10 !important; /* Keeps it above other relative elements */
-    position: relative; /* Ensures it follows the flow of the document */
+    z-index: 10 !important;
+    position: relative;
 }
 
 
@@ -1248,12 +1188,8 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     background: var(--white);
     border-right: 1px solid rgba(0,0,0,0.05);
     padding: 2rem 1.5rem;
-    
-    /* Stick below the navbar */
     position: sticky;
-    top: 70px; /* Adjust this to match your exact navbar height */
-    
-    /* Fill the remaining viewport height */
+    top: 70px;
     height: calc(100vh - 70px); 
     overflow-y: auto;
     z-index: 1000;
@@ -1265,7 +1201,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     flex-direction: column;
 }
 
-/* 3. Content Area - Using calc() to prevent overflow */
 .ds-content {
     padding: 3rem;
     background: #fdfdfd;
@@ -1273,31 +1208,13 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
 }
 
 
-/* 4. Fix for Mobile - Stack them instead of overlapping */
-@media (max-width: 992px) {
-    .ds-sidebar {
-        position: relative; /* Revert to normal flow */
-        width: 100%;
-        height: auto;
-        border-right: none;
-        border-bottom: 1px solid rgba(0,0,0,0.1);
-    }
-    
-    .ds-content {
-        margin-left: 0;
-        width: 100%;
-        padding: 2rem 1rem;
-    }
-}
-
-/* 5. Fix for Inner Sections (Grid) */
 .ds-section .row {
     margin-right: 0;
     margin-left: 0;
 }
 
 .icon-sample {
-    margin-bottom: 20px; /* Space between icons */
+    margin-bottom: 20px;
 }
 
 
@@ -1372,7 +1289,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     z-index: 3 !important;
 }
 
-/* --- Visual & Principle Cards --- */
 .principle-card {
     padding: 2.5rem;
     background: var(--light-bg);
@@ -1393,7 +1309,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     margin-bottom: 1rem;
 }
 
-/* --- Typography Spec --- */
 .type-row {
     display: flex;
     align-items: center;
@@ -1409,7 +1324,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     text-transform: uppercase;
 }
 
-/* --- Color Grid --- */
 .color-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1436,10 +1350,9 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     font-size: 0.9rem;
 }
 
-/* --- Components: Adjusted to your main site style --- */
 .btn-ds {
     padding: 14px 32px;
-    border-radius: 50px; /* High radius as per your design */
+    border-radius: 50px;
     font-weight: 700;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: none;
@@ -1475,7 +1388,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     font-weight: 800;
 }
 
-/* --- Iconography --- */
 .icon-sample {
     padding: 2rem;
     background: var(--light-bg);
@@ -1492,7 +1404,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
 
 .icon-sample i { font-size: 2rem; margin-bottom: 10px; display: block; }
 
-/* --- Motion & Interaction --- */
 .scale-box {
     display: inline-block;
     padding: 2.5rem 5rem;
@@ -1531,7 +1442,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     pointer-events: none;
 }
 
-/* Floating Food Decorations in Contact */
 .contact-float-decoration {
     position: absolute;
     pointer-events: none;
@@ -1587,7 +1497,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     75% { transform: translateY(-20px) rotate(2deg); }
 }
 
-/* Burger Trigger View */
 .contact-container {
     position: relative;
     z-index: 10;
@@ -1621,7 +1530,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     margin-bottom: 2rem;
 }
 
-/* Burger Button */
 .burger-button-wrapper {
     position: relative;
     display: inline-block;
@@ -1661,7 +1569,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     transform: scale(0.95);
 }
 
-/* Pulse Rings */
 .burger-pulse-ring {
     position: absolute;
     top: 50%;
@@ -1687,7 +1594,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     100% { transform: translate(-50%, -50%) scale(1.5); opacity: 0; }
 }
 
-/* Click Hint */
 .click-hint {
     position: absolute;
     bottom: -10px;
@@ -1717,7 +1623,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     50% { transform: translateX(-50%) translateY(-10px); }
 }
 
-/* Quick Info Cards */
 .contact-quick-cards {
     display: flex;
     justify-content: center;
@@ -1758,10 +1663,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     flex-shrink: 0;
 }
 
-/* ============================================
-   CONTACT FORM VIEW
-   ============================================ */
-
 .contact-form-view {
     max-width: 700px;
     margin: 0 auto;
@@ -1799,7 +1700,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     transform: translateX(-5px);
 }
 
-/* Form Card */
 .contact-form-card {
     background: white;
     border-radius: 28px;
@@ -1846,7 +1746,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     font-size: 0.9rem;
 }
 
-/* Topic Chips */
 .topic-chips {
     display: flex;
     flex-wrap: wrap;
@@ -1887,7 +1786,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     font-size: 1.1rem;
 }
 
-/* Form Inputs */
 .form-group {
     position: relative;
 }
@@ -1936,7 +1834,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     min-height: 120px;
 }
 
-/* Input Focus Animation Line */
 .input-focus-line {
     position: absolute;
     bottom: 0;
@@ -1954,7 +1851,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     width: calc(100% - 4px);
 }
 
-/* Submit Button with Ripple */
 .btn-submit-new {
     position: relative;
     width: 100%;
@@ -2003,7 +1899,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     transform: translateX(3px);
 }
 
-/* Ripple Effect */
 .ripple-effect {
     position: absolute;
     border-radius: 50%;
@@ -2023,10 +1918,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
         opacity: 0;
     }
 }
-
-/* ============================================
-   CONTACT SUCCESS VIEW
-   ============================================ */
 
 .contact-success-view {
     text-align: center;
@@ -2131,10 +2022,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     transform: translateY(-2px);
 }
 
-/* ============================================
-   NEW REDESIGNED FOOTER SECTION
-   ============================================ */
-
 .footer-section-new {
     position: relative;
     overflow: hidden;
@@ -2159,7 +2046,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     background: linear-gradient(180deg, rgba(45, 27, 20, 0.95) 0%, rgba(45, 27, 20, 0.98) 100%);
 }
 
-/* Footer Floating Decorations */
 .footer-float-decoration {
     position: absolute;
     pointer-events: none;
@@ -2193,7 +2079,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     animation: floatFood 9s ease-in-out infinite 1s;
 }
 
-/* Scroll to Top Button */
 .scroll-to-top-btn {
     position: fixed;
     bottom: 30px;
@@ -2250,13 +2135,11 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     100% { transform: translate(-50%, -50%) scale(1.4); opacity: 0; }
 }
 
-/* Footer Content Wrapper */
 .footer-content-wrapper {
     position: relative;
     z-index: 5;
 }
 
-/* Partners Bar */
 .footer-partners-bar {
     background: rgba(255, 255, 255, 0.03);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -2295,12 +2178,10 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     transform: scale(1.15);
 }
 
-/* Main Footer */
 .footer-main {
     padding: 3rem 0 2rem;
 }
 
-/* Brand Card */
 .footer-brand-card {
     padding: 1.5rem;
 }
@@ -2323,7 +2204,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     font-weight: 700;
 }
 
-/* Newsletter */
 .footer-newsletter-new {
     margin-top: 1rem;
 }
@@ -2391,7 +2271,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     transform: translateX(1px) scale(0.95);
 }
 
-/* Footer Links Card */
 .footer-links-card {
     padding: 1rem;
 }
@@ -2453,7 +2332,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     transform: translateX(0);
 }
 
-/* Social Icons */
 .footer-social-new {
     display: flex;
     gap: 0.75rem;
@@ -2503,7 +2381,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     z-index: 1;
 }
 
-/* Footer Contact Mini */
 .footer-contact-mini {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
@@ -2521,7 +2398,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     font-size: 0.85rem;
 }
 
-/* Footer Bottom */
 .footer-bottom-new {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     padding: 1.5rem 0;
@@ -2583,7 +2459,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
 .bg-cream { background-color: var(--ff-cream); }
 .bg-dark-brown { background-color: var(--ff-dark-brown); }
 
-/* Playful Orange Buttons */
 .btn-orange {
     background-color: var(#FF9100);
     color: white;
@@ -2598,7 +2473,6 @@ background-color: rgba(235, 150, 50, 0.15); /* Faint orange */
     box-shadow: 0 5px 15px rgba(255, 107, 0, 0.3);
 }
 
-/* Form Controls */
 .form-control:focus {
     box-shadow: 0 0 0 0.25rem rgba(255, 107, 0, 0.15);
     border-color: var(--ff-orange) !important;
@@ -2617,90 +2491,75 @@ textarea {
     width: 25vw !important;
 }
 
-/* ============================================
-   RESPONSIVE
-   ============================================ */
-
 @media (max-width: 991.98px) {
+    .ds-container {
+        flex-direction: column;
+    }
+    .ds-sidebar {
+        position: relative; 
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        padding: 1.5rem;
+        top: 0;
+    }
+    .ds-content {
+        margin-left: 0;
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
     .hero-title { font-size: 1.75rem; }
     .section-title { font-size: 2rem; }
     .feature-title { font-size: 2rem; }
     .stat-number { font-size: 2.5rem; }
-    .contact-form-card { padding: 1.5rem; }
-    .footer-social { justify-content: center; margin-top: 1rem; }
-    .footer-bottom .text-md-end { text-align: center !important; }
-    
-    .contact-float-decoration { display: none; }
     .contact-title-trigger { font-size: 2rem; }
+    .featured-card .article-title { font-size: 1.75rem; }
+    .featured-card .article-excerpt { font-size: 1.1rem; }
     .burger-reveal-btn { width: 140px; height: 140px; }
     .burger-pulse-ring { width: 160px; height: 160px; }
     .burger-pulse-ring.ring-2 { width: 180px; height: 180px; }
-    
-    .footer-float-decoration { display: none; }
+    .counter-features-grid { grid-template-columns: repeat(2, 1fr); }
+    .contact-float-decoration, .footer-float-decoration { display: none; }
+    .contact-form-card { padding: 1.5rem; }
+    .footer-social { justify-content: center; margin-top: 1rem; }
+    .footer-bottom .text-md-end { text-align: center !important; }
     .footer-partner-logo { height: 28px; }
     .footer-bottom-inner { justify-content: center; text-align: center; }
 }
-
 @media (max-width: 767.98px) {
     .hero-section { padding: 2rem 0; }
-    
-    .what-is-section,
-    .feature-detail-section,
-    .counter-needs-section,
-    .setup-section,
-    .testimonial-section,
-    .pricing-section,
-    .cta-section,
-    .contact-section-new,
-    .articles-section,
+    .what-is-section, .feature-detail-section, .counter-needs-section, 
+    .setup-section, .testimonial-section, .pricing-section, 
+    .cta-section, .contact-section-new, .articles-section, 
     .faq-section {
         padding: 3rem 0;
     }
-    
+
     .section-title { font-size: 1.75rem; }
     .feature-title { font-size: 1.5rem; }
     .stat-number { font-size: 2rem; }
-    
-    .badge-feature,
-    .badge-benefit,
-    .badge-testimonial,
-    .badge-role {
+    .contact-title-trigger { font-size: 1.75rem; }
+    .contact-tagline { font-size: 1rem; }
+
+    .badge-feature, .badge-benefit, .badge-testimonial, .badge-role {
         font-size: 0.5rem;
         padding: 0.5rem 0.75rem;
     }
-    
-    .contact-title-trigger { font-size: 1.75rem; }
-    .contact-tagline { font-size: 1rem; }
-    .burger-reveal-btn { width: 120px; height: 120px; }
-    .burger-pulse-ring { width: 135px; height: 135px; }
-    .burger-pulse-ring.ring-2 { width: 155px; height: 155px; }
+
     .contact-quick-cards { flex-direction: column; align-items: center; }
     .quick-info-card { width: 100%; max-width: 280px; justify-content: center; }
     .contact-form-card { padding: 1.25rem; border-radius: 20px; }
     .topic-chips { justify-content: center; }
-    
+    .newsletter-form-new { max-width: 300px; margin: 0 auto; }
+    .burger-reveal-btn { width: 120px; height: 120px; }
+    .burger-pulse-ring { width: 135px; height: 135px; }
+    .burger-pulse-ring.ring-2 { width: 155px; height: 155px; }
+    .counter-features-grid { grid-template-columns: 1fr; }
     .footer-partner-logos { gap: 1rem; }
     .footer-partner-logo { height: 24px; }
     .footer-main { padding: 2rem 0 1rem; }
-    .footer-links-card { text-align: center; }
-    .footer-social-new { justify-content: center; }
-    .footer-contact-mini { text-align: center; }
-    .footer-contact-mini p { justify-content: center; }
-    .footer-brand-card { text-align: center; }
-    .newsletter-form-new { max-width: 300px; margin: 0 auto; }
+    .footer-links-card, .footer-brand-card, .footer-contact-mini { text-align: center; }
+    .footer-social-new, .footer-contact-mini p { justify-content: center; }
 }
-
-/* Counter Features Grid Responsive */
-@media (max-width: 768px) {
-    .counter-features-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 991px) {
-    .counter-features-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-
