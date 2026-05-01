@@ -18,11 +18,13 @@ The central hub where administrators can monitor daily sales metrics, inventory 
 
 
 
+
 🏢 Company Profile Preview
 
 A dedicated section showcasing the brand identity, operational values, and organizational structure integrated within the system.
 
 <img width="1920" height="999" alt="QUANTOM-Company-Profile" src="https://github.com/user-attachments/assets/82eaed5c-3557-4395-b218-3693ad534734" />
+
 
 
 
