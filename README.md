@@ -14,14 +14,16 @@ QUANTOM is a comprehensive management solution designed to optimize fast-food op
 
 The central hub where administrators can monitor daily sales metrics, inventory alerts, and overall system health at a glance.
 
-[Insert Image/GIF of Dashboard Here]
+<img width="1920" height="995" alt="QUANTOM-Database" src="https://github.com/user-attachments/assets/ce87906b-3cd6-4aae-869d-5a67cb7fbf51" />
+
 
 
 🏢 Company Profile Preview
 
 A dedicated section showcasing the brand identity, operational values, and organizational structure integrated within the system.
 
-<img width="1906" height="997" alt="Screenshot 2026-04-29 at 19 44 14" src="https://github.com/user-attachments/assets/913ecfaa-75e0-4ff3-a02d-0123512e9998" />
+<img width="1920" height="999" alt="QUANTOM-Company-Profile" src="https://github.com/user-attachments/assets/82eaed5c-3557-4395-b218-3693ad534734" />
+
 
 
 
@@ -29,7 +31,8 @@ A dedicated section showcasing the brand identity, operational values, and organ
 
 A look at the user-facing interface, designed for speed and ease of use in high-pressure fast-food environments.
 
-[Insert Image/GIF of Demo UI Here]
+<img width="430" height="999" alt="Screenshot 2026-05-01 at 15 53 01" src="https://github.com/user-attachments/assets/5b8b4233-aa53-4fe7-afd3-ea8cc9179862" />
+
 
 
 🛠️ Tech Stack
